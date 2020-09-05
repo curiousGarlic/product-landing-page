@@ -68,7 +68,7 @@ header {
 }
 
 .logo {
-  width: 60vw;
+  width: 50vw;
 }
 
 @media (max-width: 650px) {
@@ -82,12 +82,12 @@ header {
 .logo > img {
   width: 100%;
   height: 100%;
-  max-width: 300px;
+  max-width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 @media (max-width: 650px) {
