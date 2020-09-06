@@ -14,7 +14,7 @@ body {
 }
 
 #page-wrapper {
-  position: relative;
+  /* position: relative; */
 }
 
 li {
@@ -51,6 +51,8 @@ a {
 }
 
 header {
+  color: #eee;
+  background-color: black;
   position: fixed;
   top: 0;
   min-height: 75px;
@@ -58,7 +60,6 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
 }
 
 @media (max-width: 600px) {
@@ -68,7 +69,7 @@ header {
 }
 
 .logo {
-  width: 50vw;
+  width: 60vw;
 }
 
 @media (max-width: 650px) {
@@ -170,7 +171,7 @@ nav > ul {
 }
 
 #features {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 #features .icon {
@@ -216,10 +217,11 @@ nav > ul {
   margin-top: 50px;
   display: flex;
   justify-content: center;
+  height: 100%;
 }
 
 #how-it-works > iframe {
-  max-width: 560px;
+  max-width: 80%;
   width: 100%;
 }
 
