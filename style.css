@@ -1,5 +1,11 @@
 #logo, #search, #shopping-bag {
-  width: 2rem;
+  width: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+#header-img {
+  width: 75%;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
@@ -36,7 +42,7 @@ a:hover {
 #header {
   width:100%;
   padding:1em;
-  background-color:#333333;
+  background-color:rgba(33, 33, 33, 0.96);
   display:flex;
   justify-content:space-between;
   align-items:center;
@@ -57,7 +63,7 @@ a:hover {
   text-decoration: none;
 }
 
-#header #header-img, #header #nav-bar{
+#header #nav-bar{
   display:none;
   height:0;
   width:0;
@@ -280,7 +286,7 @@ a:hover {
   }
 
   #header {
-    padding:0.5em;
+    padding: 0;
     display: flex;
     justify-content: center;
   }
