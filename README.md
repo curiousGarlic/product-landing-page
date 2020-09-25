@@ -1,3 +1,4 @@
-# Apple Top
+# Product Landing
 
-A landing page for the best and most powerful products that Apple Inc has to offer.
+- Responsive Web Design
+  - HTML CSS
